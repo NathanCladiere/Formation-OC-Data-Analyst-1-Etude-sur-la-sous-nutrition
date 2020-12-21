@@ -1,0 +1,7 @@
+SELECT pays,
+       sum(pertes) * 1000000 AS pertes_kg
+  FROM equilibre_prod
+ WHERE annee = "2013"
+ GROUP BY pays
+ ORDER BY pays ;
+

@@ -1,0 +1,8 @@
+SELECT pays,
+       sum(dispo_prot_gpj) * 365 / 1000 AS dispo_alim_prot_kg_p
+  FROM dispo_alim
+ WHERE annee = '2013'
+ GROUP BY pays
+HAVING dispo_alim_prot_kg_p > 0
+ ORDER BY dispo_alim_prot_kg_p ASC
+ LIMIT 10;

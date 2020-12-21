@@ -1,0 +1,6 @@
+SELECT produit,
+       (sum(autres_utilisations) / sum(dispo_int) ) AS ratio_autres_uti_sur_dispo_int
+  FROM equilibre_prod
+ GROUP BY produit
+ ORDER BY ratio_autres_uti_sur_dispo_int DESC
+ LIMIT 10;

@@ -1,0 +1,9 @@
+SELECT population.pays,
+       (nb_personnes / population * 100) AS proportion_ss_nutri
+  FROM population
+       JOIN
+       sous_nutrition ON population.code_pays = sous_nutrition.code_pays AND 
+                         population.annee = sous_nutrition.annee
+ WHERE population.annee = "2013"
+ ORDER BY proportion_ss_nutri DESC
+ LIMIT 10;

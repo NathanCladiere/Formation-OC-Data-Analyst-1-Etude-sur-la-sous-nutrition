@@ -1,0 +1,10 @@
+SELECT pays,
+       sum(dispo_alim_kcal_p_j) * 365 AS dispo_alim_kcal_p
+  FROM dispo_alim
+ WHERE annee = "2013"
+ GROUP BY pays
+ ORDER BY dispo_alim_kcal_p DESC
+ LIMIT 10;
+
+
+
