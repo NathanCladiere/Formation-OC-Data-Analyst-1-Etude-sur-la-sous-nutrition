@@ -11,7 +11,7 @@ Votre équipe est chargée de réaliser une étude de grande ampleur sur le thè
 
 Le problème de la faim est complexe et peut avoir de multiples causes, différentes selon les pays. L’étape préliminaire de cette étude sera donc d’établir un “état de l’art” des recherches déjà publiées, mais également de mener une étude statistique destinée à orienter les recherches vers des pays particuliers, et de mettre en lumière différentes causes de la faim. Ainsi, une poignée de data analysts (dont vous !) a été sélectionnée pour mener cette étape préliminaire. Lors de la première réunion, vous avez été désigné pour mettre une place la base de données que votre équipe pourra requéter (en SQL) à souhait pour réaliser cette étude statistique.
 
-# Compétences acquises 
+# Compétences acquises <a name="Comp"></a>
 - Effectuer des requêtes complexes en SQL
 - Récupérer des données à partir d'une source identifiée
 - Appliquer l'algèbre relationnelle en R ou Python
